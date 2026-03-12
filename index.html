@@ -1,187 +1,451 @@
-<!DOCTYPE html>
-<!-- @falvojr: Reference article https://www.w3schools.com/howto/howto_website_create_resume.asp -->
-<!-- @falvojr: Useful link to use fontawesome (fa) icons: https://fontawesome.com/v4/icons/ -->
+<!doctype html>
 <html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <head>
-    <title>Jorge Santos</title>
-    
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Paulo Munhoz | Analista de Dados e BI | Planejamento Comercial</title>
+  <meta name="description" content="Currículo online de Paulo Munhoz. Analista de Dados e Business Intelligence com foco em Power BI, SQL, Python, Databricks e Planejamento Comercial, com resultados comprovados em receita e eficiência operacional." />
 
-    <style>
-      html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-    </style>
-    
-  </head>
+  <meta property="og:title" content="Paulo Munhoz | Analista de Dados e BI" />
+  <meta property="og:description" content="Power BI, SQL, Python, Databricks. Dashboards e análises com impacto em receita, eficiência e tomada de decisão." />
+  <meta property="og:type" content="website" />
 
-  <body class="w3-light-grey" cz-shortcut-listen="true">
-  
-    <!-- Page Container -->
-    <div class="w3-content w3-margin-top" style="max-width:1400px;">
-  
-      <!-- The Grid -->
-      <div class="w3-row-padding">
-  
-        <!-- Left Column -->
-        <div class="w3-third">
-  
-          <div class="w3-white w3-text-grey w3-card-4">
-            <!-- @falvojr: This container has been modified to not use a profile picture. -->
-            <div class="w3-container">
-              <h2>José Jorge Magalhães Santos</h2>
-            </div>
-            <div class="w3-container">
-              <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Técnico Especializado III</p>
-              <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Estudante de Desenvolvimento Front-End</p>
-              <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Santo Amaro - Ba</p>
-              <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>jorgesantos.xp@gmail.com</p>
-              <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>(71) 98718-6497</p>
-              <hr>
-  
-              <p class="w3-large">
-                <b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b>
-              </p>
-              <p>HTML</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:40%">40%</div>
-              </div>
-              <p>CSS</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:40%">40%</div>
-              </div>
-              <p>Javascript</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:30%">30%</div>
-              </div>
-              <p>TODO</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
-              </div>
-              <br>
-  
-              <p class="w3-large w3-text-theme">
-                <b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Idiomas</b>
-              </p>
-              <p>Português</p>
-              <div class="w3-light-grey w3-round-xlarge">
-                <div class="w3-round-xlarge w3-teal" style="height:24px;width:50%"></div>
-              </div>
-              <p>TODO</p>
-              <div class="w3-light-grey w3-round-xlarge">
-                <div class="w3-round-xlarge w3-teal" style="height:24px;width:50%"></div>
-              </div>
-              <p>TODO</p>
-              <div class="w3-light-grey w3-round-xlarge">
-                <div class="w3-round-xlarge w3-teal" style="height:24px;width:50%"></div>
-              </div>
-              <br>
-            </div>
-          </div><br>
-  
-          <!-- End Left Column -->
+  <meta name="theme-color" content="#0b1220" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Paulo Munhoz",
+    "jobTitle": "Analista de Dados e Business Intelligence",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Santo André",
+      "addressRegion": "SP",
+      "addressCountry": "BR"
+    },
+    "url": "https://github.com/pauloavm",
+    "sameAs": [
+      "https://www.linkedin.com/in/paulomunhoz/",
+      "https://github.com/pauloavm"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="header">
+    <div class="container header__wrap">
+      <div class="brand">
+        <div class="brand__avatar" aria-hidden="true">PM</div>
+        <div class="brand__text">
+          <div class="brand__name">Paulo Munhoz</div>
+          <div class="brand__role">Analista de Dados e BI | Analytics | Planejamento Comercial</div>
         </div>
-  
-        <!-- Right Column -->
-        <div class="w3-twothird">
-    
-          <div class="w3-container w3-card w3-white w3-margin-bottom">
-            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-terminal fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Sobre</h2>
-            <p>Gostaria de trabalhar onde a minha experiência de 31 anos, possa contribuir com o
-              desenvolvimento da empresa, agregando valores e trocando informações que me permitam
-              aperfeiçoamento profissional, utilizando de minhas habilidades técnicas.</p>
-          </div>
-
-          <div class="w3-container w3-card w3-white w3-margin-bottom">
-            <h2 class="w3-text-grey w3-padding-16">
-              <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Experiências
-            </h2>
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>Petrobras Biocombustível - Prestação de Serviços pela Kempetro Engenharia</b></h5>
-              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Janeiro de 2019 - <span class="w3-tag w3-teal w3-round">Aual</span></h6>
-              <p>Fiscal de campo de contrato; Função de líder de equipe no setor da balança e faturamento na usina de biodiesel em candeias; Faturamento de notas fiscais para expedição de B100 (Biodiesel) e produtos especiais; Tratamento 
-                das notas fiscais de matérias primas e insumos recebidos, entrada de mercadoria (MIGO) no 
-                sistema SAP/R3; Controle de entrada, saída e pesagem de carretas; Atuando na automatização de 
-                processos SAP-Excel; Executar serviços de apoio nas áreas de recursos de administração, 
-                finanças e logística; Atendimento de fornecedores e clientes interno e externo, fornecendo e 
-                recebendo informações sobre produtos e serviços; Tratamento de documentos variados, cumprindo 
-                todo o procedimento necessário referente aos mesmos; Arquivamento de documentos;</p>
-              <hr>
-            </div>
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>TODO</b></h5>
-              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>INICIO - FIM</h6>
-              <p>TODO</p>
-            </div>
-          </div>
-  
-          <div class="w3-container w3-card w3-white">
-            <h2 class="w3-text-grey w3-padding-16">
-              <i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Educação
-            </h2>
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>Digital Innovation One (DIO)</b></h5>
-              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>INICIO - <span class="w3-tag w3-teal w3-round">Atual</span></h6>
-              <p>
-                Maior plataforma de educação aberta em TI da América Latina, com mais 1 milhão de usuários. 
-                A DIO possui parcerias com algumas das empresas mais inovadoras do mundo, proporcionando experiências 
-                de ensino imersivas e com foco em empregabilidade. Nesse contexto, seguem meus principais certificados:
-              </p>
-              <ul>
-                <li><a href="https://www.dio.me/certificate/6213111D" target="_blank">Curso: TQI Fullstack Developer (125h)</a></li>
-                <li><a href="https://www.dio.me/certificate/72361F24" target="_blank">Curso: Formação HTML Web Developer (21h)</a></li>
-                <li><a href="https://www.dio.me/certificate/64CE8868" target="_blank">Curso: Formação CSS Web Developer (46h)</a></li>
-              </ul>
-              <hr>
-            </div>
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>Centro Educacional Teodoro Sampaio</b></h5>
-              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>1993 - 1995</h6>
-              <p>Técnico em Contabilidade</p>
-            </div>
-          </div>
-
-          <div class="w3-container w3-card w3-white w3-margin-bottom">
-            <h2 class="w3-text-grey w3-padding-16">
-              <i class="fa fa-git fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projetos
-            </h2>
-            <div class="w3-container">
-              <h6 class="w3-text-teal">
-                <i class="fa fa-github fa-fw w3-margin-right"></i>
-                <a href="LINK_GITHUB" target="_blank">USUARIO_GITHUB/REPO</a>
-              </h6>
-              <p>TODO</p>
-              <hr>
-            </div>
-            <div class="w3-container">
-              <h6 class="w3-text-teal">
-                <i class="fa fa-gitlab fa-fw w3-margin-right"></i>
-                <a href="LINK_GITLAB" target="_blank">USUARIO_GITLAB/REPO</a>
-              </h6>
-              <p>TODO</p>
-            </div>
-          </div>
-  
-          <!-- End Right Column -->
-        </div>
-  
-        <!-- End Grid -->
       </div>
-  
-      <!-- End Page Container -->
-    </div>
-  
-    <footer class="w3-container w3-teal w3-center w3-margin-top">
-      <p>Minhas Redes Sociais</p>
-      <a href="https://github.com/JorgeSantosxp" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
-      <a href="https://www.linkedin.com/in/jorge-santos-41774793" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-    </footer>
-  
-  </body>
 
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#impacto">Impacto</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#certificacoes">Certificações</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="header__actions">
+        <button id="btnTema" class="btn btn--ghost" type="button" aria-label="Alternar tema">
+          Tema
+        </button>
+        <a class="btn btn--primary" href="#contato">Falar comigo</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo" class="main">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__left">
+          <p class="badge">
+            Disponível para: <strong>Analista de Dados</strong>, <strong>Analista de BI</strong>, <strong>Analytics Engineer (junior/intermediário)</strong> e <strong>Planejamento Comercial</strong>
+          </p>
+
+          <h1>
+            Transformo dados em decisões com
+            <span class="gradient">impacto direto em receita e eficiência</span>.
+          </h1>
+
+          <p class="hero__summary">
+            Analista de Dados e Business Intelligence com trajetória sólida em <strong>planejamento comercial</strong> e <strong>otimização de processos</strong>.
+            Atuo com <strong>Power BI</strong>, <strong>SQL</strong>, <strong>Python</strong>, <strong>Databricks</strong> e <strong>Excel Avançado</strong> para estruturar dados, automatizar rotinas e criar dashboards que aceleram a tomada de decisão.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="https://www.linkedin.com/in/paulomunhoz/" target="_blank" rel="noreferrer">
+              LinkedIn
+            </a>
+            <a class="btn btn--secondary" href="https://github.com/pauloavm" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+            <a class="btn btn--ghost" href="assets/paulo-munhoz-cv.pdf" target="_blank" rel="noreferrer">
+              Baixar CV (PDF)
+            </a>
+          </div>
+
+          <ul class="meta">
+            <li><span class="meta__label">Local</span><span class="meta__value">Santo André, SP</span></li>
+            <li><span class="meta__label">Inglês</span><span class="meta__value">B1 (intermediário)</span></li>
+            <li><span class="meta__label">Foco</span><span class="meta__value">BI, Comercial, Operações e Indústria</span></li>
+          </ul>
+
+          <p class="note">
+            Observação: você pode optar por não exibir telefone e endereço em público. Recomendo deixar contato direto apenas no LinkedIn e e-mail.
+          </p>
+        </div>
+
+        <aside class="hero__right" aria-label="Resumo de impacto">
+          <div class="card card--highlight">
+            <h2 class="card__title">Principais resultados</h2>
+            <ul class="kpi">
+              <li>
+                <div class="kpi__value">110%</div>
+                <div class="kpi__label">superação de metas de vendas com análises e dashboards</div>
+              </li>
+              <li>
+                <div class="kpi__value">30%</div>
+                <div class="kpi__label">redução de retrabalho com automação e padronização</div>
+              </li>
+              <li>
+                <div class="kpi__value">20%</div>
+                <div class="kpi__label">redução de desperdícios com controle orientado a dados</div>
+              </li>
+              <li>
+                <div class="kpi__value">70%</div>
+                <div class="kpi__label">aumento de capacidade produtiva com estudo de tempos</div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 class="card__subtitle">Stack</h3>
+            <div class="pillbox" aria-label="Tecnologias">
+              <span class="pill"><strong>Power BI</strong> (DAX, modelagem)</span>
+              <span class="pill"><strong>SQL</strong> (MySQL, Postgres)</span>
+              <span class="pill"><strong>Python</strong> (Pandas, NumPy)</span>
+              <span class="pill"><strong>Databricks</strong> (fundamentos Lakehouse)</span>
+              <span class="pill"><strong>Excel Avançado</strong> e Power Query</span>
+              <span class="pill"><strong>ETL</strong> e automação de relatórios</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="impacto" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Impacto no negócio (o que eu entrego)</h2>
+          <p class="section__sub">
+            Meu foco é tirar o time do modo planilha manual e colocar a operação em modo <strong>data-driven</strong>, com clareza de KPIs e rotinas automatizadas.
+          </p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card">
+            <h3>Receita e performance comercial</h3>
+            <p>
+              Dashboards e análises de carteira, sazonalidade, churn e inadimplência para orientar prioridades do time comercial e melhorar previsibilidade.
+            </p>
+            <p class="small">
+              Indicadores típicos: <strong>receita</strong>, <strong>margem</strong>, <strong>conversão</strong>, <strong>churn</strong>, <strong>inadimplência</strong>, <strong>mix</strong>, <strong>canais</strong>.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Eficiência operacional</h3>
+            <p>
+              Estruturo dados e indicadores para reduzir retrabalho, desperdícios e tempo de ciclo, criando visibilidade diária para tomada de decisão.
+            </p>
+            <p class="small">
+              Indicadores típicos: <strong>produtividade</strong>, <strong>OEE</strong>, <strong>SLA</strong>, <strong>lead time</strong>, <strong>refugo</strong>.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Governança leve para BI</h3>
+            <p>
+              Centralização de informações, padronização de bases e modelos, documentação mínima e automatização de atualização para aumentar confiança.
+            </p>
+            <p class="small">
+              Ferramentas: <strong>Power BI</strong>, <strong>Excel</strong>, <strong>SQL</strong>, <strong>Python</strong>, <strong>Databricks</strong>.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>Habilidades</h2>
+          <p class="section__sub">Organizadas para facilitar leitura de recrutadores e gestores.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <article class="card">
+            <h3>Dados e BI</h3>
+            <ul class="list">
+              <li><strong>Power BI</strong> (dashboards executivos, DAX, modelagem, performance)</li>
+              <li><strong>ETL</strong> com <strong>Power Query</strong> e padronização de fontes</li>
+              <li><strong>Storytelling com dados</strong> e tradução para stakeholders</li>
+              <li>KPIs de vendas, operações, logística e controle</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>SQL e Python</h3>
+            <ul class="list">
+              <li><strong>SQL</strong> para consultas e relatórios (MySQL, Postgres)</li>
+              <li><strong>Python</strong> para análise e automações (Pandas, NumPy)</li>
+              <li>Estruturação de rotinas e validações para confiabilidade</li>
+              <li>Documentação objetiva para sustentação do BI</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Cloud e engenharia (base)</h3>
+            <ul class="list">
+              <li><strong>Databricks</strong> (Lakehouse Fundamentals, fundamentos de Spark)</li>
+              <li>Conceitos de <strong>Azure</strong> (visão geral)</li>
+              <li>Automação e centralização de dados para tomada de decisão</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Planejamento Comercial</h3>
+            <ul class="list">
+              <li>Gestão de metas e leitura de performance por canal e carteira</li>
+              <li>Estudos de <strong>sazonalidade</strong>, <strong>churn</strong> e <strong>inadimplência</strong></li>
+              <li>Visão industrial aplicada (PCP, capacidade, restrições)</li>
+              <li>Melhoria contínua e otimização de processos (Lean)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Experiência</h2>
+          <p class="section__sub">Destaque para entregas com métricas e ferramentas.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline__item card">
+            <div class="timeline__top">
+              <h3>Analista de Dados</h3>
+              <div class="timeline__meta">ManPower | Honda do Brasil | nov 2025 - atual</div>
+            </div>
+            <ul class="list">
+              <li>Estruturação e centralização de informações em <strong>Power BI</strong>.</li>
+              <li>Processos de <strong>ETL</strong> com <strong>Excel avançado</strong> e <strong>Power Query</strong>.</li>
+              <li>Migração de relatórios de Excel para dashboards, reduzindo dependência de planilhas para decisão.</li>
+              <li>Criação de KPIs e automatização de atualização para padronização e confiabilidade.</li>
+            </ul>
+          </article>
+
+          <article class="timeline__item card">
+            <div class="timeline__top">
+              <h3>Analista de Dados (Autônomo / Freelance)</h3>
+              <div class="timeline__meta">jan 2018 - nov 2025</div>
+            </div>
+            <ul class="list">
+              <li>Dashboards em <strong>Power BI</strong> com análises comerciais, churn e sazonalidade.</li>
+              <li>Automação de relatórios e pipelines simples com <strong>SQL</strong> e <strong>Python</strong>.</li>
+              <li>Redução de retrabalho em até <strong>30%</strong> em projetos com automatização.</li>
+              <li>Aplicação de conceitos do ecossistema <strong>Databricks</strong> em projetos de portfólio.</li>
+            </ul>
+          </article>
+
+          <article class="timeline__item card">
+            <div class="timeline__top">
+              <h3>Supervisor de Negócios e Planejamento Comercial</h3>
+              <div class="timeline__meta">MagTek | set 2016 - jul 2017</div>
+            </div>
+            <ul class="list">
+              <li>Liderança de equipe comercial com gestão de performance e metas.</li>
+              <li>Relatórios e KPIs de vendas com <strong>Excel Avançado</strong>.</li>
+              <li>Contribuição para superação de <strong>110%</strong> das metas de vendas via análises.</li>
+              <li>Otimização de processos internos com redução de <strong>25%</strong> no tempo de orçamentação.</li>
+            </ul>
+          </article>
+
+          <article class="timeline__item card">
+            <div class="timeline__top">
+              <h3>Analista de Produção, Planejamento e Processos (PCP)</h3>
+              <div class="timeline__meta">Indústrias | 2011 - 2018</div>
+            </div>
+            <ul class="list">
+              <li>Planejamento e controle de produção com alta volumetria em <strong>Excel Avançado</strong>.</li>
+              <li>Redução de <strong>30%</strong> de retrabalho e <strong>20%</strong> de resíduos com controle orientado a dados.</li>
+              <li>Estudo de tempos e gargalos com aumento de capacidade produtiva em <strong>70%</strong>.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificacoes" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>Cursos e certificações</h2>
+        </div>
+
+        <div class="grid grid--2">
+          <article class="card">
+            <h3>Databricks</h3>
+            <ul class="list">
+              <li><strong>Databricks Fundamentals</strong> (2025)</li>
+              <li><strong>Generative AI Fundamentals</strong> (2025)</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Dados e BI</h3>
+            <ul class="list">
+              <li><strong>Python Data Analytics</strong> (DIO, 2025)</li>
+              <li><strong>Formação Cientista de Dados</strong> (Udemy, 2025)</li>
+              <li><strong>Análise de Dados</strong> (Randstad/DIO, 2025)</li>
+              <li><strong>Microsoft Power BI</strong> (Santander Open Academy, 2025)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Projetos (portfólio)</h2>
+          <p class="section__sub">
+            Aqui é onde você vira “candidato de elite”. Recomendo manter 2 a 3 projetos end-to-end, com contexto de negócio, modelo de dados e dashboard.
+          </p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card project">
+            <h3>Dashboard Comercial (Power BI)</h3>
+            <p class="small">
+              KPIs de receita, metas, mix, sazonalidade, churn e inadimplência.
+              Foco em decisões de priorização e previsibilidade.
+            </p>
+            <div class="project__links">
+              <a href="https://github.com/pauloavm" target="_blank" rel="noreferrer">Repositório</a>
+              <a href="#" aria-disabled="true">Demo (adicione link)</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <h3>Automação de Relatórios (Python + SQL)</h3>
+            <p class="small">
+              Pipeline simples de extração, tratamento e publicação de indicadores, reduzindo retrabalho e erros.
+            </p>
+            <div class="project__links">
+              <a href="https://github.com/pauloavm" target="_blank" rel="noreferrer">Repositório</a>
+              <a href="#" aria-disabled="true">Readme (adicione link)</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <h3>Lakehouse base (Databricks)</h3>
+            <p class="small">
+              Estrutura de camadas e tabelas analíticas para consumo em BI.
+              Use este projeto para vender seu lado de analytics engineering.
+            </p>
+            <div class="project__links">
+              <a href="https://github.com/pauloavm" target="_blank" rel="noreferrer">Repositório</a>
+              <a href="#" aria-disabled="true">Notebook (adicione link)</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="callout">
+          <p>
+            Quer que eu transforme essa seção em 2 projetos matadores com narrativa de ROI (exemplo: reduzir custo logístico, aumentar conversão, melhorar forecast)?
+            Me diga seu dataset alvo (Olist ou outro) e em quanto tempo você quer publicar.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>Contato</h2>
+          <p class="section__sub">Se quiser, deixe aqui apenas o que for público.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <div class="card">
+            <h3>Vamos conversar</h3>
+            <ul class="contact">
+              <li>
+                <span class="contact__label">E-mail</span>
+                <a class="contact__value" href="mailto:pauloavmunhoz@gmail.com">pauloavmunhoz@gmail.com</a>
+              </li>
+              <li>
+                <span class="contact__label">LinkedIn</span>
+                <a class="contact__value" href="https://www.linkedin.com/in/paulomunhoz/" target="_blank" rel="noreferrer">
+                  linkedin.com/in/paulomunhoz
+                </a>
+              </li>
+              <li>
+                <span class="contact__label">GitHub</span>
+                <a class="contact__value" href="https://github.com/pauloavm" target="_blank" rel="noreferrer">
+                  github.com/pauloavm
+                </a>
+              </li>
+              <li>
+                <span class="contact__label">Telefone</span>
+                <span class="contact__value">(11) 99136-2237</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Palavras-chave</h3>
+            <p class="small">
+              Seção propositalmente redundante para buscas e triagens. Mantive em <strong>negrito</strong> para bater o olho e para copy-paste.
+            </p>
+            <p class="keywords">
+              <strong>Power BI</strong>, <strong>DAX</strong>, <strong>Modelagem de Dados</strong>, <strong>SQL</strong>, <strong>MySQL</strong>, <strong>Postgres</strong>, <strong>Python</strong>,
+              <strong>Pandas</strong>, <strong>NumPy</strong>, <strong>ETL</strong>, <strong>Databricks</strong>, <strong>Lakehouse</strong>, <strong>Excel Avançado</strong>,
+              <strong>Power Query</strong>, <strong>KPIs</strong>, <strong>Planejamento Comercial</strong>, <strong>Churn</strong>, <strong>Sazonalidade</strong>,
+              <strong>Inadimplência</strong>, <strong>Otimização de Processos</strong>, <strong>Storytelling com Dados</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__wrap">
+      <p>© <span id="ano"></span> Paulo Munhoz. Feito para GitHub Pages.</p>
+      <p class="small">Última atualização: <span id="ultimaAtualizacao">mar 2026</span></p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
 </html>
